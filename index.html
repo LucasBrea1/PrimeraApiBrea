@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi primera API</title>
+</head>
+
+<body>
+    <h1>Mi primer titulo de API!</h1>
+    <p>Mi primer parrafo para el root de mi API</p>
+    </body>
+    </html>
+
+    app.get('/', (req, res) => {
+        console.log(__dirname)
+        res.sendFile(path.join(__dirname, 'index.html'));
+        });
+
+        
+        try{
+            // algo
+            } catch(e){
+            res.status(500).send({'error': 'Internal server error'})
+            }
