@@ -18,6 +18,5 @@ Aca van los endpoints.
 
 // Nuestra aplicación esta lista para recibir peticiones
 app.listen(port, () => {
-console.log(`Server is running on http://localhost:${port
+console.log('Server is running on http://localhost:${port}');
 });
-

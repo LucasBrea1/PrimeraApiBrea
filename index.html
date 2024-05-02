@@ -9,15 +9,3 @@
     <p>Mi primer parrafo para el root de mi API</p>
     </body>
     </html>
-
-    app.get('/', (req, res) => {
-        console.log(__dirname)
-        res.sendFile(path.join(__dirname, 'index.html'));
-        });
-
-        
-        try{
-            // algo
-            } catch(e){
-            res.status(500).send({'error': 'Internal server error'})
-            }
