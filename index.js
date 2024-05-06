@@ -36,7 +36,7 @@ app.post('/', (req, res) => {
 const {usuario, email} = req.body;
 // Guardamos el usuario en el arreglo de usuarios.
 usuarios.push(usuario)
-email.push(email)
+mails.push(email)
 // Imprimimos los arrays para ver si se estan agregando
 console.log(usuarios)
 
